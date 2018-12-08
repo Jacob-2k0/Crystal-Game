@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Crystal Game</title>
+
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+<div class="jumbotron" >
+  <h1 class="text-center">Crystal Collector</h1>
+  <hr>
+  <h3 class="text-center">Number to Guess: <span id="number-to-guess"></span></h3><hr>
+  <h3 class="text-center">Your Score: <span id="your-score"></span></h3><hr>
+  <h3 class="text-center">Wins: <span id="wins">0</span> Losses: <span id="losses">0</span></h3>
+</div>
+  <!-- Note that this div is now empty. We will fill it dynamically -->
+  <div id="crystals">
+    <div class="row">
+      <div class="col-md-4">
+      </div>
+      <div class="col-md-4">
+        <div class="row">
+          <div class="col-md-3" id="c1">
+
+          </div>
+          <div class="col-md-3" id="c2">
+
+          </div>
+          <div class="col-md-3" id="c3">
+
+          </div>
+          <div class="col-md-3" id="c4">
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================= -->
+  <!--style="background-color : powderblue-->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script src="assets/javascript/game.js"></script>
+
+</body>
+</html>
